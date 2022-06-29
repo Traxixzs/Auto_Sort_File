@@ -1,8 +1,8 @@
 import os
 import shutil
 import time
-
-access_path = "VOTRE CHEMIN D'ACCES"
+#n'oublier pas le anti slash a la fin de votre chemin d'accès
+access_path = r"VOTRE CHEMIN D'ACCES"
 list = os.listdir(access_path)
 
 for x in list:
